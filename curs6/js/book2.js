@@ -6,14 +6,13 @@ function Book(title,author,page){
 }
 
 function toString(){
-    return this.title + ' de ' + 
-    this.author + ', are '+ 
-    this.page + ' pagini.'  
+    return this.title + ' de ' + this.author + ', si are '+ this.page + ' pagini.'
 }
 
 function citeste(){
     return "Acum citesc o carte";
 }
 // export {Book};
+// doar o functionalitate se paote exporta default
 export default Book;
 export {citeste};
